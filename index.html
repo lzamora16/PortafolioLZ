@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/estilos.css">
     <link rel="stylesheet" href="./css/flexbox.css">
-    <title>Portafolio</title>
+    <title>AluraPlay</title>
     <script src="https://kit.fontawesome.com/4c2df8bc84.js" crossorigin="anonymous"></script>
 </head>
 
@@ -20,12 +20,11 @@
         <nav class="cabecera__container">
             <img class="cabecera__logo" src="img/logolz1.png" >
             <div class="cabecera__referencias">
-                <a class="menu__referencias" href="#">Sobre mí</a>
-                <a class="menu__referencias" href="#">Skill</a>
-                <a class="menu__referencias" href="#">Hobbies</a>
-                <a class="menu__referencias" href="#">Formación</a>
-                <a class="menu__referencias" href="#">Proyectos</a>
-                <a class="menu__referencias" href="#">lzamora@miutk.com</a>
+                <a class="menu__referencias" href="#sobremi">Sobre mí</a>
+                <a class="menu__referencias" href="#skill">Skill</a>
+                <a class="menu__referencias" href="#education">Formación</a>
+                <a class="menu__referencias" href="#proyect">Proyectos</a>
+                <a class="menu__referencias" href="#contact">Contacto</a>
             </div>    
         </nav>
     </header>
@@ -66,14 +65,13 @@
         </div>
     </section>
 
-    <section class="sobremi">
+    <section id="sobremi" class="sobremi">
         <h2 class="sobremi__titulo">Sobre mí</h2>
-        <p class="sobremi__parrafo">Soy un apasionado por la informática, tengo el título de Ingeniero en Sistemas de Información y cuento con una maestría en Seguridad Informática. Me gusta el campo del desarrollo web, ya que cuenta con gran amplio campo laboral.</p>
-        <p class="sobremi__parrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam veritatis similique illo hic nemo! Voluptatum unde deserunt sit saepe ut quod, cumque deleniti natus magni eius dolorem, odio excepturi dolores.</p>
-        <h6 class="sobremi__firma">lzamora</h6>
+        <p class="sobremi__parrafo">Soy un apasionado por la informática, tengo el título de Ingeniero en Sistemas de Información y cuento con una maestría en Seguridad Informática. Me gusta el desarrollo web porque ofrece una combinación única de creatividad y lógica. Crear sitios web te permite expresar tu creatividad a través del diseño y la experiencia del usuario, mientras que también te desafía a resolver problemas técnicos utilizando lenguajes de programación como HTML, CSS y JavaScript. Además, el desarrollo web es un campo en constante evolución, lo que significa que siempre hay nuevas tecnologías y técnicas para aprender y dominar, lo que lo hace emocionante y estimulante para aquellos con una pasión por la tecnología y la innovación.</p>
+        <!-- <h6 class="sobremi__firma">lzamora</h6> -->
     </section>
 
-    <section>
+    <section id="skill">
         <h2 class="skills__titulo">Skills</h2>
         <ul class="skills__menu">
             <li class="skills__list">
@@ -103,7 +101,7 @@
         </ul>
     </section>
 
-    <h2 class="education__titulo">Formación Académica</h2>
+    <h2 id="education" class="education__titulo">Formación Académica</h2>
     <section class="education">
         <div class="education__items">
             <img class="education__img" src="img/umg.jpg" alt="">
@@ -122,7 +120,7 @@
         </div>
     </section>
 
-    <h2 class="profesional__titulo">Experiencia Profesional</h2>
+    <h2 id="proyect" class="profesional__titulo">Experiencia Profesional</h2>
     <section class="profesional">
         <div class="proyect">
             <img class="proyect__img" src="img/laboral/aluraplay.png" alt="">
@@ -142,18 +140,9 @@
                 <a href="https://lzamora16.github.io/encriptadorTexto/" target="_blank" class="btn-demo">Ver demo</a>
             </div>
         </div>
-        <!-- <div>
-            <img class="proyect__img" src="img/alura.jpeg" alt="">
-            <h5 class="proyect__tit">Especialización Front-End</h5>
-            <p class="proyect__p">2024 - Alura</p>
-            <div class="proyect__botones">
-                <a href="#" class="btn-repositorio">Repositorio</a>
-                <a href="#" class="btn-demo">Ver demo</a>
-            </div>
-        </div> -->
     </section>
 
-    <div class="formulario">
+    <div id="contact" class="formulario">
         <div class="img-form">
             <img src="img/contact.png" alt="">
         </div>
